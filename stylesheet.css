@@ -1,10 +1,10 @@
 body{
-  background-color: rgba(130, 130, 130, 1);
+  background-color: rgba(226, 226, 224, 1);
   font-family: 'Lato', sans-serif; 
 }
 .jumbotron{
   margin-left: -120px;
-  /*display: block;*/ 
+  display: block; 
 }
 
 .jumbotron h1{  
@@ -29,7 +29,7 @@ body{
 
 #about-wrap{
   position: absolute;
-  top: 400px;
+  top: 350px;
   background-color: white;
   height: 400px;
   width: 100%;
@@ -37,17 +37,18 @@ body{
 
 #img-contain{
   position: absolute;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   height: 300px;
   width: 300px;
   margin-top: 2%;
-  left:20px;
+  left:68px;
 }
 
 #main-text{
-  position: relative;
+  margin-top: 2%;
+  position: absolute;
   left:30%;
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   height: 300px;
   width: 60%;
 }
