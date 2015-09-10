@@ -53,5 +53,27 @@ body{
   width: 60%;
 }
 
+#projects{
+  /*border: 1px solid black;*/
+  position: absolute;
+  top: 765px;
+  background-color: white;
+  height: 400px;
+  width: 100%;
+}
 
+.celeste-contain{
+  height: 350px;
+  width: 350px;
+  display: inline-block;
+  margin-left: -105px;
+}
 
+.celeste-gallery img{
+  height: 300px;
+  width: 300px;
+}
+
+.hidden{
+  display: none;
+}
