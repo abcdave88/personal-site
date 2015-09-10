@@ -19,6 +19,21 @@ $(document).ready(function(){
          });
 });
 
+   $(function() {
+    $('a.tic-gallery').fancybox({
+                   type:'image',
+                   padding: 0,
+                   scrolling: 'no',
+                   helpers : {
+                        overlay: {
+                           css: {'background-color': '#000'},
+                           opacity: 0.3
+                        },
+                        title : { type : 'inside' }
+                   }
+         });
+});
+
   skrollr.init({
     smoothScrolling: false, 
     mobileDeceleration: 0.004

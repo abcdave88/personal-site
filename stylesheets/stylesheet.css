@@ -74,6 +74,25 @@ body{
   width: 300px;
 }
 
+.tic-contain{
+  height: 300px;
+  width: 350px;
+  display: inline-block; 
+}
+
+.tic-contain h2{
+  display: inline;
+}
+.tic-contain p{
+  display: inline;
+  margin-left: 75px;
+}
+
+.tic-gallery img{
+  height: 300px;
+  width: 300px;
+}
+
 .hidden{
   display: none;
 }
