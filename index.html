@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="bootstrap.css">
-  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="stylesheets/stylesheet.css">
+  <link rel="stylesheet" href="stylesheets/skrollr-style.css">
+  <!-- <link rel="stylesheet" href="/fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" /> -->
   <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-  <script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
-<script src="js/main.js"></script>
+  <!-- // <script type="text/javascript" src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script> -->
+  <script src="js/skrollr.js"></script>
+  <script src="js/main.js"></script>
   <meta charset="UTF-8">
   <title>Dave James</title>
 </head>
@@ -14,39 +17,48 @@
 
 
 
-<div class="container">
-  <div class="jumbotron" id="jumbo1">
-    <div class="container-fluid">
-        <h1>Dave James</h1>
-        <img src="http://images3.alphacoders.com/250/25007.jpg" alt="">
+  <div class="container">
+    <div class="jumbotron" id="jumbo1">
+      <div class="container-fluid">
+          <h1>Dave James</h1>
+          <img src="http://images3.alphacoders.com/250/25007.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron center-block" id="jumbo2">
+      <div class="container-fluid">
+          <h1>Web Developer</h1>
+          <img src="http://desktopbackgrounds4u.com/wp-content/gallery/wallpaper-for-computer-background/3931-pc-ware-1920x1200-computer-wallpaper.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="jumbotron" id="jumbo3">
+      <div class="container-fluid">
+          <h1>Hertfordshire</h1>
+          <img src="http://desktopbackgroundshq.com/backgrounds/big-ben-london-night-travel-backgrounds-london-night-25235.jpg" alt="">
+      </div>
     </div>
   </div>
 </div>
 
-<div class="container">
-  <div class="jumbotron center-block" id="jumbo2">
-    <div class="container-fluid">
-        <h1>Web Developer</h1>
-        <img src="http://desktopbackgrounds4u.com/wp-content/gallery/wallpaper-for-computer-background/3931-pc-ware-1920x1200-computer-wallpaper.jpg" alt="">
-    </div>
-  </div>
-</div>
 
-<div class="container">
-  <div class="jumbotron" id="jumbo3">
-    <div class="container-fluid">
-        <h1>Hertfordshire</h1>
-        <img src="http://desktopbackgroundshq.com/backgrounds/big-ben-london-night-travel-backgrounds-london-night-25235.jpg" alt="">
-    </div>
-  </div>
-</div>
-
-<section id="about-wrap">
+<section id="about-wrap"
+ data-0="background-color:black;"
+  data-80="background-color:white;">
     <div class="container">
-      <div id="img-contain">
+      <div id="img-contain"
+      data-0="opacity:0;"
+      data-80="opacity:1;">
         <img src="https://scontent-lhr3-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11039049_10153143983635860_564299254986012934_n.jpg?oh=b2202238b7219718343ff91dd2419e64&oe=5667E681" alt="">
       </div>
-      <div id="main-text">
+      <div id="main-text"
+      data-0="opacity:0;"
+      data-80="opacity:1;"
+      >
         <h2>About Me</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio earum explicabo dolores, molestias eum illo pariatur veniam eius! Libero accusantium excepturi aspernatur commodi vitae esse a iste quo deserunt voluptatibus.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate sunt aliquid natus eos accusantium repudiandae totam sapiente, autem iure quae possimus dolorem fuga dolor doloremque illum nihil animi. Officiis.</p>

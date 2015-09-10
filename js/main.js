@@ -2,6 +2,13 @@ console.log('hello world')
 
 $(document).ready(function(){
 
+  skrollr.init({
+    smoothScrolling: false,
+    mobileDeceleration: 0.004
+  });
+
+
+
 $('#jumbo2').hide();
 $('#jumbo3').hide();
 
