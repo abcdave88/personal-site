@@ -1,6 +1,15 @@
+/*html, body{
+  height: 100%;
+  margin: 0;
+}
+*/
 body{
   background-color: rgba(226, 226, 224, 1);
   font-family: 'Lato', sans-serif; 
+}
+
+.wrapper{
+  position: relative;
 }
 .jumbotron{
   margin-left: -120px;
@@ -28,6 +37,7 @@ body{
 }
 
 #about-wrap{
+  display: block;
   position: absolute;
   top: 350px;
   background-color: white;
@@ -53,8 +63,20 @@ body{
   width: 60%;
 }
 
+.personal-links{
+  position: relative;
+  left:-24px;
+  letter-spacing: 3px;
+  margin-top: 72px;
+}
+
+.personal-links ul li a{
+  list-style-type: none;
+}
+
 #projects{
   /*border: 1px solid black;*/
+  display: block;
   position: absolute;
   top: 765px;
   background-color: white;
@@ -93,6 +115,20 @@ body{
   width: 300px;
 }
 
+#footer{
+  position: absolute;
+  display: block;
+  margin-top: 1165px;
+  height: 60px;
+  width: 100%;
+}
+
+#footer p{
+  margin-left: 64px;
+  margin-top: 22px;
+}
+
 .hidden{
   display: none;
 }
+
