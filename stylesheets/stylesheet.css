@@ -1,25 +1,31 @@
-/*html, body{
-  height: 100%;
+html, body{
+  max-height: 1220px;
   margin: 0;
 }
-*/
+
 body{
+
   background-color: rgba(226, 226, 224, 1);
   font-family: 'Lato', sans-serif; 
 }
 
 .wrapper{
   position: relative;
+  overflow: hidden;
 }
 .jumbotron{
-  margin-left: -120px;
+  position: relative;
+  margin-top: 1em;
+  margin-left: -6em;
   display: block; 
+  width: 90em;
+  height: 25em;
 }
 
 .jumbotron h1{  
-  top: 22%;
-  left: 40%;
-  position: absolute;
+  bottom: -2em;
+  left: 29%;
+  position: relative;
   color: white;
   z-index: 1;
   font-size: 55px;
@@ -29,45 +35,44 @@ body{
 
 .jumbotron img{
   border-radius: 5px;
-  top:5%;
-  position: absolute;
+  bottom:4em;
+  position: relative;
   width:90%;
-  height: 45%;
+  height: 23em;
   overflow: hidden;
 }
 
 #about-wrap{
   display: block;
-  position: absolute;
-  top: 350px;
+  position: relative;
   background-color: white;
   height: 400px;
   width: 100%;
+  margin-bottom: 1em;
 }
 
 #img-contain{
-  position: absolute;
-  /*border: 1px solid black;*/
+  display: inline-block;
+  position: relative;
   height: 300px;
   width: 300px;
-  margin-top: 2%;
-  left:68px;
+  margin-top: 2em;
+  left:-7em;
 }
 
 #main-text{
-  margin-top: 2%;
-  position: absolute;
-  left:30%;
-  /*border: 1px solid black;*/
-  height: 300px;
-  width: 60%;
+  display: inline-block;
+  margin-top: -23em;
+  position: relative;
+  left:21em;
+  max-width:68%;
 }
 
 .personal-links{
   position: relative;
   left:-24px;
   letter-spacing: 3px;
-  margin-top: 72px;
+  margin-top: 4em;
 }
 
 .personal-links ul li a{
@@ -75,10 +80,8 @@ body{
 }
 
 #projects{
-  /*border: 1px solid black;*/
   display: block;
-  position: absolute;
-  top: 765px;
+  position: relative;
   background-color: white;
   height: 400px;
   width: 100%;
@@ -88,7 +91,7 @@ body{
   height: 350px;
   width: 350px;
   display: inline-block;
-  margin-left: -105px;
+  margin-left: -8em;
 }
 
 .celeste-gallery img{
@@ -116,16 +119,18 @@ body{
 }
 
 #footer{
-  position: absolute;
-  display: block;
-  margin-top: 1165px;
-  height: 60px;
+  border-bottom: 2px solid white;
+  position: fixed;
+  max-height: 2em;
   width: 100%;
+  bottom:0;
+  padding-bottom: 1em;
 }
 
 #footer p{
-  margin-left: 64px;
-  margin-top: 22px;
+  margin-left: 4em;
+  margin-top: 1em;
+
 }
 
 .hidden{
