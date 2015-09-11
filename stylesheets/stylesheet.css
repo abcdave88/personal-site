@@ -1,5 +1,5 @@
 html, body{
-  max-height: 1220px;
+  max-height: 88em;
   margin: 0;
 }
 
@@ -120,11 +120,12 @@ body{
 
 #footer{
   border-bottom: 2px solid white;
-  position: fixed;
+  /*position: fixed;*/
   max-height: 2em;
   width: 100%;
   bottom:0;
   padding-bottom: 1em;
+  padding-top: 1em;
 }
 
 #footer p{
